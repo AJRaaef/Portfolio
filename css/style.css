@@ -9747,6 +9747,60 @@ textarea.form-control {
 .technologies {
     margin-top: 10px;
 }
+@media (max-width: 768px) {
+  .hero-wrap {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .hero-wrap h1 {
+    font-size: 2rem;
+  }
+
+  .hero-wrap h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-info span {
+    font-size: 14px;
+  }
+
+  .counter-wrap .number {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .tools-section .row {
+      display: flex;
+      flex-wrap: wrap; /* Ensure items wrap */
+      justify-content: center; /* Align items in the center */
+  }
+  .tools-section .col-sm-2 {
+      flex: 0 0 33.333%; /* Each item takes one-third of the row */
+      max-width: 33.333%; /* Ensure consistent sizing */
+      text-align: center; /* Center-align content */
+      margin-bottom: 15px; /* Space between rows */
+  }
+  .tools-section i {
+      font-size: 2.5rem; /* Adjust icon size for smaller screens */
+  }
+  .tools-section p {
+      font-size: 0.9rem; /* Slightly smaller font size for text */
+  }
+}
+
+
+
+
 
   
   
