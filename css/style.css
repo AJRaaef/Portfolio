@@ -9798,9 +9798,89 @@ textarea.form-control {
   }
 }
 
+/* Mobile-Specific Styling */
+@media (max-width: 768px) {
+  .hero-wrap {
+    padding: 20px; /* Add padding for smaller screens */
+  }
+  .hero-wrap .text {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 90%; /* Prevent content from overflowing */
+  }
+  .hero-wrap h1, .hero-wrap h2, .hero-wrap .subheading {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    line-height: 1.4;
+  }
+}
 
 
+/* Mobile-Specific Adjustments */
+@media (max-width: 768px) {
+  .project-card {
+    margin-bottom: 25px; /* Increase spacing for mobile */
+  }
 
+  .row {
+    margin: 0; /* Ensure no extra margins from parent container */
+  }
+
+  .project-card .card-title {
+    font-size: 1.1rem; /* Adjust font size */
+  }
+
+  .project-card .card-text {
+    font-size: 0.9rem; /* Adjust text size */
+  }
+
+  .project-card img {
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .card-body {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .project-card .technologies {
+    font-size: 0.8rem; /* Slightly smaller font */
+  }
+}
+
+
+/* for Education Mobile */
+
+/* Responsive Adjustments for Mobile */
+@media (max-width: 768px) {
+  .resume-wrap {
+    flex-direction: row; /* Maintain horizontal layout */
+    text-align: left;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .resume-wrap .icon {
+    margin-bottom: 0; /* Keep icon aligned with text */
+    width: 50px;
+    height: 50px;
+  }
+
+  .resume-wrap .text {
+    padding-left: 10px; /* Add spacing to maintain alignment */
+  }
+
+  .resume-wrap .text h2 {
+    font-size: 1.2rem;
+  }
+
+  .resume-wrap .text .position {
+    font-size: 0.9rem;
+  }
+
+  .resume-wrap .text p {
+    font-size: 0.85rem;
+  }
+}
 
   
   
