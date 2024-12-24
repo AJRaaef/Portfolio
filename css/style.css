@@ -9882,6 +9882,94 @@ textarea.form-control {
   }
 }
 
-  
-  
-  
+
+/*  */
+/* General layout for the footer columns */
+.ftco-footer-widget {
+  padding: 20px;
+  text-align: left;
+}
+
+/* Social Icons Layout */
+.ftco-footer-social {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.ftco-footer-social li {
+  list-style: none;
+}
+
+.ftco-footer-social a {
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+.ftco-footer-social a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Main footer row layout */
+.row.mb-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Adjust the middle (Links) section */
+.col-md-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* Ensure the Links section takes available space */
+}
+
+/* Links Section Specific Styling */
+.col-md-4 > .ftco-footer-widget {
+  text-align: center;
+}
+
+
+/* last 3 boxes */
+/* Flexbox container to handle equal height across columns */
+
+  .box {
+    height: 300px; /* Set a uniform height */
+    width: 100%; /* Ensure it spans the column width */
+    background-color: #f9f9f9; /* Optional background color */
+    border-radius: 10px; /* Add some rounded corners for better aesthetics */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box .icon {
+    font-size: 40px; /* Ensure icons are consistent in size */
+    color: #333; /* Adjust color as needed */
+    margin-bottom: 15px; /* Space between the icon and heading */
+  }
+
+  .box h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .box p {
+    font-size: 16px;
+    color: #666; /* Lighter text for descriptions */
+    margin: 0;
+  }
+
+  .shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Consistent shadow effect */
+  }
+
+  .uniform-box {
+    height: 300px; /* Match all boxes */
+  }
+
